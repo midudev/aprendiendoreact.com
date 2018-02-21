@@ -1,0 +1,20 @@
+{
+  "name": "aprendiendoreact.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nextein",
+    "deploy": "npm run export && surge ./out --domain aprendiendoreact.com",
+    "export": "NODE_ENV=production nextein build && nextein export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "5.0.0",
+    "nextein": "^1.2.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "surge": "0.19.0"
+  }
+}
