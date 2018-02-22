@@ -1,8 +1,5 @@
 import { Fragment } from 'react'
 
-import withPosts from 'nextein/posts'
-import { Content } from 'nextein/post'
-
 import { PageLayout } from '../components/PageLayout'
 import { StrongStatement, StrongStatementLink } from '../components/StrongStatement'
 
@@ -10,7 +7,7 @@ import { MyTeacherSection } from './sections/MyTeacher'
 import { FAQSection } from './sections/FAQ'
 import { CourseContent } from './sections/CourseContent'
 
-export default withPosts( ({ posts }) => {
+export default () => {
   return (
     <Fragment>
       <PageLayout
@@ -28,4 +25,4 @@ export default withPosts( ({ posts }) => {
       `}</style>
     </Fragment>
   )
-})
+}
