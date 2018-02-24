@@ -1,7 +1,8 @@
 import { Fragment } from 'react'
 
 import { PageLayout } from '../components/PageLayout'
-import { StrongStatement, StrongStatementLink } from '../components/StrongStatement'
+import { UnderlinedLink } from '../components/ui/UnderlinedLink'
+import { StrongStatement } from '../components/StrongStatement'
 
 import { MyTeacherSection } from './sections/MyTeacher'
 import { FAQSection } from './sections/FAQ'
@@ -15,7 +16,7 @@ export default () => {
         title='Aprendiendo React - Curso premium.'>
         <CourseContent />
         <StrongStatement>
-          Un curso premium de React ⚛️ con todo lo que necesitas para aprender la librería de Javascript de moda.<br /><StrongStatementLink href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB'>Únete ahora a los más de 200 estudiantes →</StrongStatementLink>
+          Un curso premium de React ⚛️ con todo lo que necesitas para aprender la librería de Javascript de moda.<br /><UnderlinedLink href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB'>Únete ahora a los más de 200 estudiantes →</UnderlinedLink>
         </StrongStatement>
         <MyTeacherSection />
         <FAQSection />

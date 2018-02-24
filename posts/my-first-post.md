@@ -1,5 +1,6 @@
 ---
 title: ¡Bienvenidos a aprendiendoReact!
+description: Artículos y promociones para que puedas aprender React gracias a desarrolladores con años de experiencia en el sector.
 category: post
 ---
 

@@ -1,14 +1,16 @@
 import { Fragment } from 'react'
 import Head from 'next/head'
 
-import { Header } from '../Header'
-import { FixedAside } from '../FixedAside';
-import { ScrollableContent } from './ScrollableContent';
+import { FixedAside } from '../FixedAside'
+import { ScrollableContent } from './ScrollableContent'
 
-export const PageLayout = ({ children, title = '', withHeader }) => (
+export const PageLayout = ({ children, description = '', isArticle, title = '' }) => (
   <Fragment>
     <Head>
-      <title>{title}</title>
+      <title>{`${title} - aprendiendoReact.com`}</title>
+      <meta name='description' content={description} />
+      <meta property='og:title' content={title} />
+      <meta property='og:description' content={description} />
     </Head>
     <FixedAside />
     <ScrollableContent>
