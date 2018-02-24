@@ -7,7 +7,7 @@ export const MyTeacherSection = () => (
       <div>
         <img src='../static/profesor.png' />
         <p>Miguel Ángel Durán es desarrollador web con más de diez años de experiencia. Actualmente trabaja como Enabler Frontend en Schibsted Spain, donde su misión es la de dar soporte a los desarrolladores de la empresa, buscar la mejor arquitectura para que todos los portales convergan e instruirles en nuevas tecnologías y soluciones web.</p>
-        <a href="https://twitter.com/midudev?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-size="large" data-lang="es" data-show-count="false">Follow @midudev</a>
+        <a href='https://twitter.com/midudev?ref_src=twsrc%5Etfw' className='twitter-follow-button' data-size='large' data-lang='es' data-show-count='false'>Follow @midudev</a>
       </div>
     </section>
     <style jsx>{`

@@ -20,8 +20,8 @@ export const FAQSection = () => (
         <dt>¿Ofrecéis algún tipo de cursos presenciales o consultoría además del curso?</dt>
         <dd>¡Sí! Ponte en contacto en nosotros en <a href='mailto:miduga@gmail.com'>miduga@gmail.com</a> y cuéntanos tus necesidades.</dd>
 
-        <dt></dt>
-        <dd></dd>
+        <dt />
+        <dd />
       </dl>
     </div>
     <style jsx>{`

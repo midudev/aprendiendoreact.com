@@ -1,14 +1,12 @@
 import { Fragment } from 'react'
-import { Logo } from '../Logo'
-import { ContentContainer } from '../ContentContainer'
 
 export const Header = () => (
   <Fragment>
     <header>
-    <nav>
-      <a href="/cursos">Cursos</a>
-      <a href="/blog">Blog</a>
-    </nav>
+      <nav>
+        <a href='/cursos'>Cursos</a>
+        <a href='/blog'>Blog</a>
+      </nav>
     </header>
     <style jsx>{`
       header {
@@ -34,6 +32,6 @@ export const Header = () => (
         color: #000;
       }
       `}
-      </style>
+    </style>
   </Fragment>
 )

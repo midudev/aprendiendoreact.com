@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nextein",
     "deploy": "npm run export && surge ./out --domain aprendiendoreact.com",
-    "export": "NODE_ENV=production nextein build && nextein export"
+    "export": "NODE_ENV=production nextein build && nextein export",
+    "lint": "eslint pages componentes --fix"
   },
   "author": "",
   "license": "ISC",

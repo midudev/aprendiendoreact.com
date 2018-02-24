@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Logo } from '../Logo'
-import { CTA } from './CTA';
+import { CTA } from './CTA'
 import { BlogLink } from './BlogLink'
 
 export const FixedAside = ({ children }) => (
@@ -66,4 +66,3 @@ export const FixedAside = ({ children }) => (
     `}</style>
   </Fragment>
 )
-

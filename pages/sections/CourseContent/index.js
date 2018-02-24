@@ -23,9 +23,9 @@ export const CourseContent = () => (
         image='eventos-y-formularios'
       />
       <CardContent
-      title='Children y Proptypes'
-      image='children-y-proptypes'
-    />
+        title='Children y Proptypes'
+        image='children-y-proptypes'
+      />
       <CardContent
         title='Ciclo de vida de los componentes'
         image='ciclo-de-vida'
