@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { PageLayout } from '../components/PageLayout'
 import { ShareArticle } from '../components/ShareArticle'
+import { ArticleImage } from '../components/ui/ArticleImage'
 import { ArticleParagraph } from '../components/ui/ArticleParagraph'
 
 import withPost, { Content } from 'nextein/post'
@@ -16,6 +17,7 @@ export default withPost(({ post }) => {
         <article>
           <Content {...post}
             renderers={{
+              img: ArticleImage,
               p: ArticleParagraph
             }}
           />
