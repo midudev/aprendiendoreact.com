@@ -16,15 +16,17 @@ export default withPosts(({ posts }) => {
         {
           posts.map(({ data: { date, description, url, title } }, index) => (
             <article itemScope itemType='http://schema.org/BlogPosting' key={`post-${index}`}>
-              <h1 itemProp='headline'>
-                <UnderlinedLink displayBlock href={url} itemProp='url' rel='bookmark'>
-                  {title}
-                </UnderlinedLink>
-              </h1>
+              <header>
+                <h1 itemProp='headline'>
+                  <UnderlinedLink displayBlock href={url} itemProp='url' rel='bookmark'>
+                    {title}
+                  </UnderlinedLink>
+                </h1>
+                <time dateTime={date} itemProp='datePublished'>
+                  {Timeago({ date: date })}
+                </time>
+              </header>
               <p>{description}</p>
-              <time dateTime={date} itemProp='datePublished'>
-                {Timeago({ date: date })}
-              </time>
             </article>
           ))
         }
@@ -32,24 +34,29 @@ export default withPosts(({ posts }) => {
       <style jsx>{`
         article {
           margin-bottom: 32px;
-          padding-bottom: 16px;
+          padding-bottom: 32px;
           position: relative;
         }
         article::after {
-          background-color: #eee;
           bottom: 0;
-          content: '';
-          left: 0;
-          height: 1px;
-          margin: auto;
+          color: #aaa;
+          content: '~';
+          display: block;
+          font-size: 24px;
+          font-weight: 200;
+          text-align: center;
           position: absolute;
-          right: 0;
-          width: 250px;
+          width: 100%;
+        }
+        header {
+          align-items: center;
+          display: flex;
         }
         h1 {
+          flex: 1 1 100%;
           font-size: 32px;
           font-weight: 400;
-          padding-right: 140px;
+          padding-right: 16px;
         }
         h2 {
           color: #444;
@@ -57,14 +64,19 @@ export default withPosts(({ posts }) => {
           padding-bottom: 36px;
           text-align: center;
         }
+        p {
+          color: #222;
+          line-height: 175%;
+          font-size: 16px;
+        }
         time {
-          color: #666;
-          font-weight: 500;
+          color: #aaa;
+          flex: 1 1 auto;
+          font-weight: 200;
           letter-spacing: -1px;
-          position: absolute;
-          right: 0;
+          min-width: 130px;
+          text-align: right;
           text-transform: uppercase;
-          top: 6px;
         }
       `}</style>
     </Fragment>
