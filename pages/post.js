@@ -12,7 +12,7 @@ export default withPost(({ post }) => {
 
   return (
     <Fragment>
-      <PageLayout title={title} description={description}>
+      <PageLayout title={title} description={description} url={url}>
         <h1>{title}</h1>
         <article>
           <Content {...post}

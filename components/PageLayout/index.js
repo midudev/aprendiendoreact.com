@@ -4,13 +4,18 @@ import Head from 'next/head'
 import { FixedAside } from '../FixedAside'
 import { ScrollableContent } from './ScrollableContent'
 
-export const PageLayout = ({ children, description = '', isArticle, title = '' }) => (
+export const PageLayout = ({ children, description = '', isArticle, title = '', url }) => (
   <Fragment>
     <Head>
       <title>{`${title} - aprendiendoReact.com`}</title>
       <meta name='description' content={description} />
       <meta property='og:title' content={title} />
       <meta property='og:description' content={description} />
+      {!!url && <meta property='og:url' content={`http//aprendiendoreact.com${url}`} />}
+      {!!url && <link rel='canonical' href={`http//aprendiendoreact.com${url}`} />}
+      <meta name='twitter:card' content='summary' />
+      <meta name='twitter:site' content='midudev' />
+      <meta name='twitter:creator' content='midudev' />
     </Head>
     <FixedAside />
     <ScrollableContent>

@@ -1,5 +1,5 @@
 ---
-title: Aprender React, cinco razones por las que deberías aprenderlo
+title: Aprender React, cinco razones por las que deberías hacerlo
 description: Descubre por qué React es la librería de frontend que deberías aprender ya mismo para tener más oportunidades. Cinco razones que te convencerán para mejorar tu desarrollo web.
 category: post
 ---
