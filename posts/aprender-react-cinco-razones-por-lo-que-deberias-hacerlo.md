@@ -18,4 +18,4 @@ category: post
 
 **¿Estás decidido ya? ¿Buscas un sitio donde aprender?** Pues puedes empezar a aprender React con mi curso de Udemy que, por tiempo limitado, tiene un descuento del 60% quedándose en 19'99€.
 
-[![Curso de Aprendiendo React](../static/aprendiendo-react.jpg)](https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB)
+[![Curso de Aprendiendo React](/static/aprendiendo-react.jpg)](https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB)
