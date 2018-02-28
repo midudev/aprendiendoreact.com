@@ -31,9 +31,10 @@ export default withPost(({ post }) => {
           padding-bottom: 16px;
         }
         h1 {
+          color: #333;
           flex: 1 1 100%;
           font-size: 32px;
-          font-weight: 400;
+          font-weight: 600;
           padding-right: 16px;
         }
       `}</style>
