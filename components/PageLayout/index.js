@@ -11,9 +11,9 @@ export const PageLayout = ({ children, description = '', isArticle, title = '', 
       <meta name='description' content={description} />
       <meta property='og:title' content={title} />
       <meta property='og:description' content={description} />
-      <meta property='og:image' content='//aprendiendoreact.com/static/og.png' />
-      {!!url && <meta property='og:url' content={`http//aprendiendoreact.com${url}`} />}
-      {!!url && <link rel='canonical' href={`http//aprendiendoreact.com${url}`} />}
+      <meta property='og:image' content='http://aprendiendoreact.com/static/og.png' />
+      {!!url && <meta property='og:url' content={`http://aprendiendoreact.com${url}`} />}
+      {!!url && <link rel='canonical' href={`http://aprendiendoreact.com${url}`} />}
       <meta name='twitter:card' content='summary' />
       <meta name='twitter:site' content='midudev' />
       <meta name='twitter:creator' content='midudev' />
