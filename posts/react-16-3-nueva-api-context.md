@@ -1,5 +1,5 @@
 ---
-title: React 16.3: Nueva API para Context
+title: React 16.3 Nueva API para Context
 description: Descubre la nueva API de Context para la versión 16.3 de React
 category: post
 ---
