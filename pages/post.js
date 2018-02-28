@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { PageLayout } from '../components/PageLayout'
 import { ShareArticle } from '../components/ShareArticle'
+import { ArticleCaption } from '../components/ui/ArticleCaption'
 import { ArticleImage } from '../components/ui/ArticleImage'
 import { ArticleParagraph } from '../components/ui/ArticleParagraph'
 
@@ -17,6 +18,7 @@ export default withPost(({ post }) => {
         <article>
           <Content {...post}
             renderers={{
+              'x-caption': ArticleCaption,
               img: ArticleImage,
               p: ArticleParagraph
             }}
