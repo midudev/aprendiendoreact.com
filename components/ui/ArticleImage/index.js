@@ -5,7 +5,7 @@ export const ArticleImage = (props) => (
     <img {...props} />
     <style jsx>{`
       img {
-        height: auto
+        height: auto;
         max-width: 100%;
       }
     `}</style>

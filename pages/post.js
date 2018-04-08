@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { PageLayout } from '../components/PageLayout'
 import { ShareArticle } from '../components/ShareArticle'
 import { ArticleCaption } from '../components/ui/ArticleCaption'
+import { ArticleCode } from '../components/ui/ArticleCode'
 import { ArticleImage } from '../components/ui/ArticleImage'
 import { ArticleParagraph } from '../components/ui/ArticleParagraph'
 import { ArticleSubtitle } from '../components/ui/ArticleSubtitle'
@@ -20,6 +21,7 @@ export default withPost(({ post }) => {
           <Content {...post}
             renderers={{
               'x-caption': ArticleCaption,
+              code: ArticleCode,
               h2: ArticleSubtitle,
               img: ArticleImage,
               p: ArticleParagraph

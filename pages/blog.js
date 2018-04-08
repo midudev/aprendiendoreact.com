@@ -1,11 +1,12 @@
 import { Fragment } from 'react'
 import { PageLayout } from '../components/PageLayout'
 
-import withPosts from 'nextein/posts'
+import withPosts, { sortByDate } from 'nextein/posts'
 import { Timeago } from '../components/ui/Timeago'
 import { UnderlinedLink } from '../components/ui/UnderlinedLink'
 
 export default withPosts(({ posts }) => {
+  posts.sort(sortByDate)
   return (
     <Fragment>
       <PageLayout
