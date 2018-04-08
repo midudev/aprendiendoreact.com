@@ -4,7 +4,7 @@ description: getDerivedStateFromProps y getSnapshotBeforeUpdate. El mítico cicl
 category: post
 ---
 
-![getSnapshotBeforeUpdate](../static/posts/getSnapshotBeforeUpdate.png)
+![getSnapshotBeforeUpdate](/static/posts/getSnapshotBeforeUpdate.png)
 
 El ciclo de vida de los componentes en React ha sido bastante estable a lo largo del desarrollo de React y no ha recibido entre versiones grandes cambios, exceptuando la adición del `componentDidCatch`. Sin ninguna duda, los métodos `componentDidMount` y compañía se han convertido, por méritos propios, en una de las señas de identidad de los componentes de React.
 
