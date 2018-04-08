@@ -1,5 +1,5 @@
 ---
-title: React 16.3 Cambios en el ciclo de vida
+title: React 16.3 Cambios en el ciclo de vida. Nuevos métodos getDerivedStateFromProps y getSnapshotBeforeUpdate
 description: getDerivedStateFromProps y getSnapshotBeforeUpdate. El mítico ciclo de vida de los componentes de React trae novedades importantes en esta nueva versión de React. ¡Descúbrelas!
 category: post
 ---
