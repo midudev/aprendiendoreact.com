@@ -10,11 +10,15 @@ El ciclo de vida de los componentes en React ha sido bastante estable a lo largo
 
 **Pero esto ha cambiado en la última versión de React 16.3. **Además de los cambios que se han añadido al contexto y las referencias, también se han deprecado dos métodos del ciclo de vida: `componentWillReceiveProps` y `componentWillUpdate`. Y, a su vez, se han añadido dos nuevos métodos que pasan a ser parte del ciclo de vida: `getDerivedStateFromProps` y `getSnapshotBeforeUpdate`.
 
+## ¿Por qué se hace este cambio?
+
 Antes de explicar en detalle estos nuevos métodos, vamos a desgranar el por qué se ha decidido hacer este paso. Hay varias razones:
 
 - La primera, los métodos del ciclo de vida han dado todo lo posible para lo que fueron diseñados, pero con las nuevas características que se van a implementar en React, sobretodo el render asíncrono, estos componentes dejan de tener tanto sentido y, de hecho, pueden suponer un problema. Al tener el renderizado asíncrono y que React decida qué parte del árbol tiene más sentido renderizar que otro en cuanto a prioridad, esto puede provocar que haya componentes que reciban nuevas props y, pese a ello, no ejecuten los métodos `componentWillReceiveProps` y `componentWillUpdate` ya que para React estos no son prioritarios.
 
 - Además, **estos dos métodos normalmente no se usaban correctamente. ** Desde el equipo de React consideran que la comunidad no los ha entendido correctamente y ese problema, creen, es más un problema de implementación de la librería que de documentación. Así que esperan que estos dos métodos ayuden a los desarrolladores a usarlas como es debido.
+
+## Los dos nuevos métodos: getDerivedStateFromProps y getSnapshotBeforeUpdate
 
 `static getDerivedStateFromProps(nextProps, prevState)`: Este es el método que viene a sustituir a `componentWillReceiveProps`. Para empezar, notad que este método es static y así lo deberéis indicar en vuestro componente de React. Este nuevo método será invocado después que el componente sea instanciado y también cada vez que el componente reciba nuevas props. Utilizan sus parámetros con las nuevas props y el state anterior, debe devolver un objeto con el state actualizado o `null` para indicar que no requiere ninguna actualización su state. De la misma forma que pasaba con `componentWillReceiveProps`, si un componente padre causa un re-render de tu componente, este método se llamará incluso si las props no han cambiado.
 
