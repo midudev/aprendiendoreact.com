@@ -12,8 +12,8 @@ export default () => {
   return (
     <Fragment>
       <PageLayout
-        description='Desde cero, con ejemplos prácticos y con desarrolladores con experiencia'
-        title='Aprendiendo React - Curso premium.'>
+        description='Aprende React desde cero, con ejemplos prácticos y con desarrolladores con experiencia. Artículos sobre las novedades del lenguaje y con tutoriales'
+        title='Aprende React - aprendiendoreact.com'>
         <CourseContent />
         <StrongStatement>
           Un curso premium de React ⚛️ con todo lo que necesitas para aprender la librería de Javascript de moda.<br /><UnderlinedLink href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB'>Únete ahora a los más de 200 estudiantes →</UnderlinedLink>
