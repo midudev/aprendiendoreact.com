@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <script async src='https://platform.twitter.com/widgets.js' charSet='utf-8' />
           <script async src='https://www.googletagmanager.com/gtag/js?id=UA-30525085-7' />
