@@ -12,19 +12,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "4.19.1",
-    "eslint-config-standard": "11.0.0",
-    "eslint-config-standard-react": "6.0.0",
-    "eslint-plugin-import": "2.10.0",
-    "eslint-plugin-node": "6.0.0",
-    "eslint-plugin-promise": "3.6.0",
-    "eslint-plugin-react": "7.7.0",
-    "eslint-plugin-standard": "3.0.1",
-    "next": "5.1.0",
-    "nextein": "1.2.2",
+    "eslint": "4",
+    "eslint-config-standard": "11",
+    "eslint-config-standard-react": "6",
+    "eslint-plugin-import": "2",
+    "eslint-plugin-node": "6",
+    "eslint-plugin-promise": "3",
+    "eslint-plugin-react": "7",
+    "eslint-plugin-standard": "3",
+    "next": "6",
+    "nextein": "1",
     "react": "16",
     "react-dom": "16",
-    "surge": "0.20.1"
+    "surge": "0.20"
   },
   "dependencies": {
     "timeago.js": "3.0.2"
