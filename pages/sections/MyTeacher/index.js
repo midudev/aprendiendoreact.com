@@ -29,6 +29,11 @@ export const MyTeacherSection = () => (
     section {
       display: flex;
     }
+    @media (max-width: 500px) {
+      section {
+        flex-direction: column;
+      }
+    }
     `}</style>
   </Fragment>
 )

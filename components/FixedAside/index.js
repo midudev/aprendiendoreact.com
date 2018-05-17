@@ -10,7 +10,8 @@ export const FixedAside = ({ children }) => (
         <Logo size={175} />
       </div>
       <h1>Aprendiendo <span>React</span></h1>
-      <p>· Más de 4 horas de vídeo &nbsp;🎥<br />· Más de 70 recursos &nbsp;💻<br />· Más de 260 alumnos &nbsp;👩‍💻<br />· Acceso de por vida &nbsp;📆<br />Valoración ⭐️️️️️️⭐️⭐️⭐️⭐️(4,8)</p>
+      <p>· Más de 5 horas de vídeo &nbsp;🎥<br />· Más de 70 recursos &nbsp;💻<br />· Más de 400 alumnos &nbsp;👩‍💻<br />· Acceso de por vida &nbsp;📆<br />Valoración ⭐️️️️️️⭐️⭐️⭐️⭐️(4,82)</p>
+      <strong>por sólo <span>9,99 €</span></strong>
       <CTA />
       <BlogLink />
     </aside>
@@ -41,6 +42,17 @@ export const FixedAside = ({ children }) => (
       margin-top: 32px;
       padding: 8px;
       text-shadow: 0 0 3px rgba(0, 0, 0, .5)
+    }
+    strong {
+      color: #fff;
+      display: block;
+      font-size: 18px;
+    }
+    strong span {
+      display: inline-block;
+      font-size: 36px;
+      transform: translate(0, 5px);
+      text-shadow: -1px 0 3px rgba(0, 0, 0, .45);
     }
     aside {
       background-image: url("../../static/backgrounds/blue.png");

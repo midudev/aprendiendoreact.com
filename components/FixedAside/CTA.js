@@ -3,8 +3,8 @@ import { Fragment } from 'react'
 export const CTA = () => (
   <Fragment>
     <a
-      href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB'>
-      Apuntarme al curso 🙋🏽‍♂️
+      href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB_9'>
+      <span>Comprar ahora 🎓</span>
     </a>
     <style jsx>{`
     a {
@@ -27,6 +27,9 @@ export const CTA = () => (
     a:hover {
       background: linear-gradient(to bottom,#f5d78e,#eeb933);
       border-color: #a88734 #9c7e31 #846a29;
+    }
+    s {
+      padding: 0px 8px;
     }
     `}</style>
   </Fragment>
