@@ -20,14 +20,14 @@
     "eslint-plugin-node": "6",
     "eslint-plugin-promise": "3",
     "eslint-plugin-react": "7",
-    "eslint-plugin-standard": "3",
+    "eslint-plugin-standard": "3"
+  },
+  "dependencies": {
+    "timeago.js": "3.0.2",
     "next": "6",
     "nextein": "1",
     "react": "16",
     "react-dom": "16",
     "surge": "0.20"
-  },
-  "dependencies": {
-    "timeago.js": "3.0.2"
   }
 }
