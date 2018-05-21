@@ -7,7 +7,8 @@
     "dev": "nextein",
     "deploy": "rm -rf ./out && npm run export && surge ./out --domain aprendiendoreact.com",
     "export": "NODE_ENV=production nextein build && nextein export",
-    "lint": "eslint pages componentes --fix"
+    "lint": "eslint pages componentes --fix",
+    "test": "echo \"Error: no test specified.\""
   },
   "author": "",
   "license": "ISC",
