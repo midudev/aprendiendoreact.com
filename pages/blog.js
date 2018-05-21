@@ -2,7 +2,6 @@ import { Fragment } from 'react'
 import { PageLayout } from '../components/PageLayout'
 
 import withPosts, { sortByDate } from 'nextein/posts'
-import { Timeago } from '../components/ui/Timeago'
 import { UnderlinedLink } from '../components/ui/UnderlinedLink'
 
 export default withPosts(({ posts }) => {
@@ -23,9 +22,6 @@ export default withPosts(({ posts }) => {
                     {title}
                   </UnderlinedLink>
                 </h1>
-                <time dateTime={date} itemProp='datePublished'>
-                  {Timeago({ date: date })}
-                </time>
               </header>
               <p>{description}</p>
             </article>
@@ -69,15 +65,6 @@ export default withPosts(({ posts }) => {
           color: #222;
           line-height: 175%;
           font-size: 16px;
-        }
-        time {
-          color: #aaa;
-          flex: 1 1 auto;
-          font-weight: 200;
-          letter-spacing: -1px;
-          min-width: 130px;
-          text-align: right;
-          text-transform: uppercase;
         }
       `}</style>
     </Fragment>
