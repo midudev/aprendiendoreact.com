@@ -16,7 +16,7 @@ export default () => {
         title='Aprende React - aprendiendoreact.com'>
         <CourseContent />
         <StrongStatement>
-          Un curso premium de React ⚛️ con todo lo que necesitas para aprender la librería de Javascript de moda.<br /><UnderlinedLink href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB'>Únete ahora a los más de 350 estudiantes →</UnderlinedLink>
+          Un curso premium de React ⚛️ con todo lo que necesitas para aprender la librería de Javascript de moda.<br /><UnderlinedLink href='https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB_9'>Únete ahora a los más de 420 estudiantes →</UnderlinedLink>
         </StrongStatement>
         <MyTeacherSection />
         <FAQSection />
