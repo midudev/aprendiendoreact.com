@@ -55,6 +55,7 @@ export const PageLayout = ({ children, description = '', isArticle, title = '', 
       background: none;
       text-shadow: 0 1px white;
       font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+      font-size: 14px;
       text-align: left;
       white-space: pre;
       word-spacing: normal;
