@@ -41,13 +41,15 @@ export const PageLayout = ({ children, description = '', isArticle, title = '', 
     h1, h2, h3, h4 {
       margin: 0
     }
-    pre code {
-      background: transparent;
+    pre {
+      background: #f5f2f0;
+      padding: 1em;
     }
     code {
-      background: rgba(255,229,100,0.2);
       color: #1a1a1a;
-      padding: 4px;
+    }
+    code span {
+      transform: color .3s ease;
     }
     code[class*="language-"],
     pre[class*="language-"] {

@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <script async src='https://platform.twitter.com/widgets.js' charSet='utf-8' />
           <script async src='https://www.googletagmanager.com/gtag/js?id=UA-30525085-7' />
+          <script src='/static/js/h.js' />
           <script dangerouslySetInnerHTML={{__html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
