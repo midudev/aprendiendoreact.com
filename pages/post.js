@@ -43,6 +43,7 @@ export default withPost(({ post }) => {
         }
       `}</style>
       <script src='/static/js/h.js' />
+      <script>Prism.highlightAll(true)</script>
     </Fragment>
   )
 })
