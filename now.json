@@ -1,0 +1,12 @@
+{
+  "alias": ["aprendiendoreact.com", "www.aprendiendoreact.com"],
+  "name": "aprendiendoreact.com",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {"distDir": "out"}
+    }
+  ]
+}

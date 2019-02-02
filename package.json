@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf ./out && npm run export",
+    "now-build": "npm run build",
     "dev": "nextein",
-    "deploy": "rm -rf ./out && npm run export && surge ./out --domain aprendiendoreact.com",
     "export": "NODE_ENV=production nextein build && nextein export",
     "lint": "eslint pages componentes --fix",
     "test": "echo \"Error: no test specified.\""
@@ -27,7 +28,6 @@
     "next": "6",
     "nextein": "1",
     "react": "16",
-    "react-dom": "16",
-    "surge": "0.20"
+    "react-dom": ">=16.0.1"
   }
 }
