@@ -20,6 +20,9 @@ export const FAQSection = () => (
         <dt>¿Ofrecéis algún tipo de cursos presenciales o consultoría además del curso?</dt>
         <dd>¡Sí! Ponte en contacto en nosotros en <a href='mailto:miduga@gmail.com'>miduga@gmail.com</a> y cuéntanos tus necesidades.</dd>
 
+        <dt>¿Dónde más puedo seguir artículos de frontend y desarollo web?</dt>
+        <dd>Puedes seguir el <a href='http://midudev.com'>blog de Miguel Ángel</a>, donde se habla de <a href='http://midudev.com'>desarrollo web, programación y las novedades de React</a>.</dd>
+
         <dt />
         <dd />
       </dl>
