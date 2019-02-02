@@ -16,6 +16,6 @@ category: post
 
 **5. Considerada la tecnología para perfiles de frontend mejor pagada** (según la última encuesta de Stack Overflow) y una demanda enorme de desarrolladores de React en todo el mundo. Solo hace falta ver la cantidad de recruitment que buscan perfiles con conocimientos de React en LinkedIn.
 
-**¿Estás decidido ya? ¿Buscas un sitio donde aprender?** Pues puedes empezar a aprender React con mi curso de Udemy que, por tiempo limitado, tiene un descuento del 60% quedándose en 19'99€.
+**¿Estás decidido ya? ¿Buscas un sitio donde aprender?** Pues puedes empezar a aprender React con mi curso de Udemy que, por tiempo limitado, tiene un descuento del 70% quedándose en 14'99€.
 
 [![Curso de Aprendiendo React](/static/aprendiendo-react.jpg)](https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB)

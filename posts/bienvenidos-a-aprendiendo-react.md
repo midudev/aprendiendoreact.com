@@ -10,7 +10,7 @@ Ya existen multitud de webs en producción que lo utilizan. No sólo la propia F
 
 ¿Y quién somos? Pues somos **Miguel Ángel Durán y David Garcia**, desarrolladores web que trabajan para **Schibsted Spain** y que contamos con muchos  años de experiencia frontend y, más específicamente, en **React**.
 
-Así que no dejes de seguir este blog y nuestras cuentas de Twitter [@midudev](https://twitter.com/midudev) y [@d4vecarter](https://twitter.com/d4vecarter) para estar a la última de todas las novedades de Frontend y del desarrollo en React.
+Así que no dejes de seguir este blog y nuestras cuentas de Twitter [@midudev](https://twitter.com/midudev) y [@d4vecarter](https://twitter.com/d4vecarter) para estar a la última de todas las novedades de Frontend y del desarrollo en React. También puedes seguir [el blog de desarrollo de Miguel Ángel.](http://midudev.com).
 
 Por otra parte, os recordamos que tenemos un curso para aprender React de forma rápida, cómoda y profesional en [Udemy](https://www.udemy.com/aprendiendo-react/?couponCode=APR_REACT_WEB).** Lo tenemos con un descuento del 70% por tiempo limitado, quedándose en 14'99€:**
 

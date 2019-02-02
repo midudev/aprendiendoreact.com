@@ -10,7 +10,7 @@ export const FixedAside = ({ children }) => (
         <Logo size={175} />
       </div>
       <h1>Aprendiendo <span>React</span></h1>
-      <p>· Más de 5 horas de vídeo &nbsp;🎥<br />· Más de 70 recursos &nbsp;💻<br />· Más de 420 alumnos &nbsp;👩‍💻<br />· Acceso de por vida &nbsp;📆<br />Valoración ⭐️️️️️️⭐️⭐️⭐️⭐️(4,82)</p>
+      <p>· Más de 5 horas de vídeo &nbsp;🎥<br />· Más de 70 recursos &nbsp;💻<br />· Más de 1400 alumnos &nbsp;👩‍💻<br />· Acceso de por vida &nbsp;📆<br />Valoración ⭐️️️️️️⭐️⭐️⭐️⭐️(4,65)</p>
       <strong>por sólo <span>9,99 €</span></strong>
       <CTA />
       <BlogLink />
